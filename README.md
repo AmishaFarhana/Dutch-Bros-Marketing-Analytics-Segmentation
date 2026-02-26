@@ -1,3 +1,12 @@
+Using survey data and statistical modeling in Enginius, we conducted:
+
+- Hierarchical Cluster Analysis
+- Discriminant Analysis
+- Segment Profiling
+- Classification Modeling
+- Marketing Strategy Development
+
+
 ☕ Dutch Bros Coffee
 Marketing Segmentation & Analytics
 📌 Project Overview
