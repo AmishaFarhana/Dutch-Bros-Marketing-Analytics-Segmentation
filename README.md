@@ -1,114 +1,236 @@
-Using survey data and statistical modeling in Enginius, we conducted:
+# ☕ Dutch Bros Coffee – Marketing Segmentation & Analytics
 
-- Hierarchical Cluster Analysis
-- Discriminant Analysis
-- Segment Profiling
-- Classification Modeling
-- Marketing Strategy Development
+---
 
+## 📌 Project Overview
 
-☕ Dutch Bros Coffee
-Marketing Segmentation & Analytics
-📌 Project Overview
+This project applies marketing analytics techniques to identify and profile distinct customer segments for **Dutch Bros Coffee**, one of the fastest-growing drive-thru coffee chains in the United States.
 
-Marketing analytics project applying data-driven segmentation to identify and profile distinct Dutch Bros customer segments.
+Using survey data and statistical modeling in **Enginius**, we conducted:
 
-Objective: Move beyond broad demographic targeting → build psychographic & behavioral segmentation to improve retention, loyalty, and marketing effectiveness.
+- Hierarchical Cluster Analysis  
+- Discriminant Analysis  
+- Segment Profiling  
+- Multinomial Logit Classification  
+- Marketing Strategy Development  
 
-Techniques applied:
-Hierarchical Clustering • Discriminant Analysis • Multinomial Logit Classification • Segment Profiling • Strategy Development
+The goal was to move beyond broad demographic targeting and develop **data-driven segmentation strategies** to improve customer retention, brand positioning, and marketing effectiveness.
 
-🎯 Business Problem
+---
 
-As competition intensifies (Starbucks • Dunkin’ • Local cafés), Dutch Bros must understand:
+## 🎯 Business Problem
 
-Who their customers are • What motivates them • How attitudes drive loyalty • Which segments are most valuable
+As competition intensifies in the specialty coffee industry (Starbucks, Dunkin’, local cafés), Dutch Bros must better understand:
 
-Without segmentation, marketing risks being generalized and inefficient.
+- Who their customers are  
+- What motivates them  
+- How attitudes influence loyalty  
+- Which segments are most valuable  
 
-📊 Data & Methodology
+Without clear segmentation, marketing efforts risk being too generalized and inefficient.
 
-Sample: 32 survey responses (17 used in final segmentation validation)
-Sampling: Convenience sampling (campus & social networks)
-Platform: Enginius
+---
 
-Segmentation Bases (Attitudinal Variables)
+## 📊 Data & Methodology
 
-Routine (daily coffee habit) • Brand Personality Fit • Community Orientation • Willingness to Pay • Social Media Engagement • Preference for Personalization
+### Sample
 
-Method Used: Hierarchical Clustering (Ward’s Method)
+- 32 completed survey responses  
+- 17 observations retained for final validated segmentation model  
+- Convenience sampling via campus and social networks  
+- Current or recent Dutch Bros customers  
 
-🔎 Segmentation Results
+### Segmentation Variables (Attitudinal Bases)
 
-Exploratory Run: 5 clusters → statistically unstable (small cluster sizes)
-Final Validated Model: 2 clusters → managerially actionable • 100% classifiable
+Six Likert-scale variables (Q9_1 – Q9_6):
 
-Segment Distribution:
-Traditionalists → 18%
-Loyalists → 82%
+- Coffee as daily routine  
+- Preference for fun & energetic brand culture  
+- Community orientation  
+- Willingness to pay for unique flavors  
+- Social media engagement  
+- Preference for personalized service  
 
-👥 Segment Profiles
-🟠 Segment 1 — Low-Engagement Traditionalists (18%)
+Method Used:
 
-Functional coffee perspective • Price-sensitive • Occasional visits • Prefer hot/traditional drinks • Lower social engagement
+- Hierarchical Clustering (Ward’s Method) in Enginius  
 
-Opportunity: Increase frequency via convenience messaging & value bundles
+---
 
-🔵 Segment 2 — Brand-Engaged Loyalists (82%)
+## 🔎 Segmentation Results
 
-Coffee part of daily routine • High visit frequency • Higher spending • Prefer iced/blended/energy drinks • Socially active • Strong brand alignment
+### Exploratory Model
 
-Strategy: Loyalty programs • App-based rewards • Limited-time drops • Community events
+- 5-cluster solution  
+- Statistically valid but fragmented  
+- Small cluster sizes  
+- Limited managerial usability  
 
-🧠 Discriminant & Classification Analysis
+### Final Validated Model
 
-Model Used: Multinomial Logit Classification
+- 2-cluster solution retained  
+- Combined with discriminant analysis  
+- 100% in-sample classification accuracy  
 
-Descriptors Tested:
-Drink Type • Purchase Method • Age • Gender • Lifestyle • Visit Frequency • Spending Level • Motivation Type
+Final Segment Sizes:
 
-Confusion Matrix Result:
-100% correct classification (17/17 observations)
+- Segment 1: 18%  
+- Segment 2: 82%  
 
-Implication:
-Segments are statistically distinct • Predictable • Managerially actionable
+---
 
-📈 Segment Comparison (Quick View)
+## 👥 Segment Profiles
 
-Drink Preference → Hot vs Iced/Blended
-Visit Frequency → Occasional (1.0) vs High (1.5+)
-Motivation → Convenience vs Brand Vibe
-Channel → Walk-up vs Drive-thru/App
-Spending → Lower vs Higher
+### 🟠 Segment 1 – Low-Engagement Traditionalists (18%)
 
-🏗 Framework Applied
+**Characteristics:**
 
-STP (Segmentation–Targeting–Positioning) • Consumer Behavior Theory • Brand Personality Theory
+- View coffee as functional  
+- Lower emotional connection to brand  
+- Lower social engagement  
+- Occasional visits  
+- More price-sensitive  
+
+**Marketing Opportunity:**
+
+- Increase visit frequency  
+- Emphasize speed & convenience  
+- Offer value promotions  
+
+---
+
+### 🔵 Segment 2 – Brand-Engaged Loyalists (82%)
+
+**Characteristics:**
+
+- Coffee is part of daily routine  
+- Strong alignment with fun & energetic culture  
+- Value personalization & friendly service  
+- Higher visit frequency  
+- Higher spending per visit  
+- Active on social media  
+
+**Marketing Strategy:**
+
+- Loyalty programs  
+- App-based rewards  
+- Limited-time drink drops  
+- Community engagement events  
+
+---
+
+## 🧠 Discriminant & Classification Analysis
+
+A multinomial logit classification model was used to determine whether observable descriptors could predict segment membership.
+
+Descriptor Variables:
+
+- Drink Type  
+- Purchase Method  
+- Age  
+- Gender  
+- Lifestyle  
+- Visit Frequency  
+- Spending Level  
+- Motivation Type  
+
+**Confusion Matrix Results:**
+
+- 100% correct classification (17/17 observations)  
+
+This confirms the segments are:
+
+- Statistically distinct  
+- Managerially actionable  
+- Predictable using observable traits  
+
+---
+
+## 📈 Key Marketing Insights
+
+- Dutch Bros’ core revenue driver is the Brand-Engaged Loyalist segment (82%)  
+- Emotional alignment with brand personality drives frequency and spending  
+- Community & personalization significantly impact loyalty intentions  
+- Functional coffee drinkers represent a growth opportunity  
+- Segmentation improves targeting efficiency and strategic clarity  
+
+---
+
+## 🏗 Theoretical Framework
+
+This study integrates:
+
+- STP Framework (Segmentation–Targeting–Positioning)  
+- Consumer Behavior Theory  
+- Brand Personality & Relationship Theory  
 
 Conceptual Flow:
-Demographics + Psychographics → Behavior → Segment Membership → Satisfaction → Loyalty
 
-🛠 Tools Used
+Demographics + Psychographics  
+→ Behavioral Patterns  
+→ Segment Membership  
+→ Brand Satisfaction  
+→ Loyalty & Advocacy  
 
-Enginius • Excel • Survey Design • Ward’s Hierarchical Clustering • Multinomial Logit Model
+---
 
-🚀 Strategic Recommendations
+## 🛠 Tools Used
 
-Primary Target — Loyalists (Retention & Advocacy)
-Community events • Exclusive app rewards • Limited-edition drops • Emotional storytelling
+- Enginius (Cluster & Discriminant Analysis)  
+- Excel (Data Cleaning)  
+- Hierarchical Clustering (Ward’s Method)  
+- Multinomial Logit Classification Model  
+- Survey Instrument Design  
 
-Secondary Target — Traditionalists (Frequency & Conversion)
-Speed-of-service messaging • Mobile coupons • Value bundles • Drive-thru promotions
+---
 
-⚠ Limitations
+## 📂 Repository Structure
 
-Small sample size (n=17 final model) • Convenience sampling • In-sample accuracy may overestimate real-world performance
+- `/Data` – Cleaned dataset (CSV & Excel)  
+- `/Segmentation Reports` – Enginius output reports  
+- `/Final Report` – Full academic report (PDF/DOCX)  
+- `/Presentation` – Final presentation deck  
+- `/Questionnaire` – Survey instrument  
 
-Future improvements: Larger dataset • Probability sampling • Out-of-sample validation
+---
 
-📌 Conclusion
+## 🚀 Strategic Recommendations
 
-This project demonstrates how marketing analytics transforms survey data into actionable strategy.
+### Primary Target – Brand-Engaged Loyalists
 
-Impact:
-Improved targeting precision • Stronger loyalty alignment • Clear segment prioritization • Better marketing ROI direction
+- Expand loyalty ecosystem  
+- Increase emotional engagement  
+- Strengthen app personalization  
+
+### Secondary Target – Traditionalists
+
+- Convenience messaging  
+- Promotional bundles  
+- Drive-thru value incentives  
+
+---
+
+## ⚠ Limitations
+
+- Small sample size (n=17 in validated model)  
+- Convenience sampling  
+- In-sample classification accuracy may overestimate real-world predictive power  
+
+Future research should:
+
+- Increase sample size  
+- Use probability sampling  
+- Validate model out-of-sample  
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates how marketing analytics transforms raw survey data into actionable strategic insights.
+
+By identifying high-value customer segments and validating them statistically, Dutch Bros can:
+
+- Improve targeting precision  
+- Increase loyalty  
+- Strengthen brand positioning  
+- Optimize marketing ROI  
