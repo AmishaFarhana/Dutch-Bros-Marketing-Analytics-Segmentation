@@ -1,6 +1,5 @@
 ☕ Dutch Bros Coffee
 Marketing Segmentation & Analytics
-
 📌 Project Overview
 
 Marketing analytics project applying data-driven segmentation to identify and profile distinct Dutch Bros customer segments.
